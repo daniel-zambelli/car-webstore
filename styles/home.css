@@ -1,0 +1,48 @@
+.container {
+  min-width: 450px;
+  margin-top: 6em;
+  background-color: var(--preto);
+}
+
+.home {
+  background-color: var(--branco);
+  width: 60%;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 3em 3em;
+}
+
+.home__imagem {
+  width: 100%;
+  height: 400px;
+
+  background-image: url("/assets/stand-carros.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home__titulo {
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+}
+
+.home__descricao {
+  text-align: center;
+  padding: 5px;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  background-color: var(--preto);
+  color: var(--branco);
+}

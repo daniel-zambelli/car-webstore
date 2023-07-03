@@ -7,7 +7,11 @@ header {
 }
 
 .logo {
-  box-shadow: 1px 1px 3px 3px rgba(235, 235, 235, 0.356);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.logo:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 nav ul {
@@ -19,24 +23,56 @@ nav ul li a {
   color: var(--branco);
   padding: 10px 20px;
   border-radius: 10px;
+  transition: all 0.5s ease;
 }
 
 nav ul li a:hover {
-  color: var(--preto);
-  background-color: var(--amarelo);
-  transition: 0.5s ease;
-  font-weight: 700;
-  transform: scale(-1, 1.3);
+  color: var(--amarelo);
+  transition: all 0.5s ease;
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
 }
 
-.btn {
-  color: var(--preto);
-  background-color: var(--amarelo);
+.btn-1 {
+  color: var(--amarelo);
+  background-color: var(--preto);
   font-size: 1em;
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 20px;
+  transition: all 0.3s ease;
+  border-left: 1px solid var(--amarelo);
+  border-right: 1px solid var(--amarelo);
+}
+
+.btn-1:hover {
+  background-color: transparent;
+  color: var(--branco);
+  border-left: 1px solid var(--branco);
+  border-right: 1px solid var(--branco);
+}
+
+.btn-2 {
+  color: var(--amarelo);
+  background-color: var(--preto);
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  border-left: 1px solid var(--amarelo);
+  border-right: 1px solid var(--amarelo);
+}
+
+.btn-2:hover {
+  background-color: transparent;
+  color: var(--branco);
+  border-left: 1px solid var(--branco);
+  border-right: 1px solid var(--branco);
 }
